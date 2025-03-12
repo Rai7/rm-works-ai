@@ -21,7 +21,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://RaiRamones:$HF_TOKEN@huggingface.co/spaces/RaiRamones/Agentic-AI main
-
-       
-         
+        run: git push --force https://RaiRamones:$HF_TOKEN@huggingface.co/spaces/RaiRamones/rmworks-ai main
